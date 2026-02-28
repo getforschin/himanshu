@@ -1,16 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
+import Content from '~/components/widgets/Content.astro';
+import Features from '~/components/widgets/Features.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Shek glow Technology',
@@ -33,12 +28,12 @@ const metadata = {
       <!-- <span class="hidden sm:inline">
         <span class="font-semibold">AS SHEKGLOW TECHNOLOGY LLP , </span> We always like to start things off simple. We provide good quality services. Our main focus is fullfill the requirement of our customer. </span
       > -->
-      <span>
+      <p class="text-center">
         ShekGlow Technology LLP is a forward-thinking System Integrator company, founded in August 2024 with its
         registered office in Sector 37D, Gurgaon. We specialize in delivering end-to-end technology integration
         solutions tailored to meet the evolving needs of businesses. Our focus lies in combining cutting-edge
         technologies with industry expertise to empower organizations to achieve efficiency, security, and growth.
-      </span>
+      </p>
     </Fragment>
   </Hero>
 
@@ -58,64 +53,64 @@ const metadata = {
         title: 'IT Infrastructure Design & Implementation',
         description:
           'We provide complete IT infrastructure planning, setup, and deployment to ensure seamless connectivity, scalability, and business continuity.',
-        icon: 'tabler:binary-tree-2',
+        icon: 'tabler:server-2',
       },
       {
         title: 'Network Security & Solutions',
         description:
           'Advanced firewall, intrusion detection, and secure networking services that protect your digital assets against modern cyber threats.',
-        icon: 'tabler:components',
+        icon: 'tabler:shield-check',
       },
       {
         title: 'Microsoft Licensing',
         description:
           'End-to-end licensing support and solutions for Microsoft products to ensure compliance, cost optimization, and efficient usage.',
-        icon: 'tabler:list-check',
+        icon: 'tabler:brand-windows',
       },
       {
         title: 'Enterprise System Integration',
         description:
           'Integration of ERP, CRM, and enterprise applications to create a unified and efficient business ecosystem.',
-        icon: 'tabler:rocket',
+        icon: 'tabler:puzzle',
       },
       {
         title: 'Cybersecurity Solutions',
         description:
           'Multi-layered security strategies, vulnerability assessments, and proactive monitoring to safeguard business-critical information.',
-        icon: 'tabler:arrows-right-left',
+        icon: 'tabler:lock-square',
       },
       {
         title: 'Managed IT Services',
         description:
           'Proactive monitoring, troubleshooting, and IT support to minimize downtime and enhance productivity.',
-        icon: 'tabler:bulb',
+        icon: 'tabler:tool',
       },
       {
         title: 'Video & Audio Solutions',
         description:
           'Tailored conferencing, presentation, and communication systems that improve collaboration and efficiency.',
-        icon: 'tabler:bulb',
+        icon: 'tabler:video',
       },
 
       {
         title: 'CCTV Surveillance Services',
         description:
           'Smart surveillance solutions with real-time monitoring, advanced analytics, and reliable storage for enhanced security.',
-        icon: 'tabler:bulb',
+        icon: 'tabler:camera',
       },
 
       {
         title: 'Personal Computing',
         description:
           'Supply and maintenance of desktops, laptops, and peripherals for business needs with performance-driven configurations.',
-        icon: 'tabler:bulb',
+        icon: 'tabler:device-laptop',
       },
 
       {
         title: 'Consulting & Support',
         description:
           'Expert IT consulting, strategic planning, and round-the-clock support to help businesses grow through technology.',
-        icon: 'tabler:bulb',
+        icon: 'tabler:headset',
       },
     ]}
   />
